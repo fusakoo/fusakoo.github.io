@@ -52,7 +52,15 @@ p {
   margin-left: -250px;
 }
 
+.navbar {
+  visibility: hidden;
+}
+
 @media (max-width: 768px) {
+  .navbar {
+    visibility: visible;
+  }
+
   #sidebar {
       margin-left: -250px;
   }
