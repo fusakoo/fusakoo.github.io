@@ -1,7 +1,9 @@
-$(document).ready(function () {
+// script for navbar toggle button (currently unused)
 
-    $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').toggleClass('active');
-    });
+// $(document).ready(function () {
 
-});
+//     $('#sidebarCollapse').on('click', function () {
+//         $('#sidebar').toggleClass('active');
+//     });
+
+// });
