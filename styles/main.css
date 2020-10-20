@@ -79,3 +79,15 @@ main h1, main h2{
 main p {
   padding: 20px 40px;
 }
+
+#home{
+  margin: 0 0 45em 0;
+}
+
+#about{
+  margin: 2em 0 45em 0;
+}
+
+#projects{
+  margin: 2em 0 40em 0;
+}
