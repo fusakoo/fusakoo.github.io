@@ -1,8 +1,11 @@
 @import "https://fonts.googleapis.com/css?family=Rubik|Karla:300,400,500,600,700";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Karla', sans-serif;
-  background: #fafafa;
 }
 
 p {
@@ -78,7 +81,7 @@ p {
   }
 }
 
-main h1, main h2{
+main h1, main h2 {
   font-family: 'Rubik', sans-serif;
   color: #FF522B;
   font-size: 1.5em;
@@ -89,20 +92,24 @@ main p {
   padding: 20px 40px;
 }
 
-#home, #about, #projects{
+main a {
+  color: #ff9215;
+}
+
+main a:hover {
+  color: #ff6b15;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#home, #about, #projects {
   margin: 0 0 45em 0;
 }
 
-#end{
+#end {
   padding: 20px 40px;
 }
 
-#scroll-up{
-  color: #FF522B;
+#scroll-up {
   float: right;
-}
-
-#scroll-up:hover{
-  color: #e7360e;
-  transition: all 0.3s;
 }
