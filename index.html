@@ -1,7 +1,6 @@
 <!--TODO-->
 <!--
-    * When sidebar is toggle in smaller screen (mobile), it should open vertically
-    * Optimize navbar toggle button (rather than floating on the bottom)
+    * When sidebar is toggle in smaller screen (mobile), it should ideally open vertically
 -->
 
 <!DOCTYPE html>
@@ -21,6 +20,8 @@
         <meta name="theme-color" content="#ffffff">
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     </head>
@@ -49,13 +50,16 @@
                         <li>
                             <a class="nav-link" href="https://github.com/fusakoo/" target="_blank">Github</a>
                         </li>
+                        <li>
+                            <a class="nav-link" href="https://www.instagram.com/fusakoo_/" target="_blank">Instagram</a>
+                        </li>
                     </ul>
                 </nav>
             </header>
             <main>
                 <div id="content">
                     <!-- navbar button -->
-                    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbutton">
                         <div class="container-fluid">
                             <button type="button" id="sidebarCollapse" class="btn btn-light">
                                 <i class="fas fa-bars"></i>
@@ -64,15 +68,15 @@
                     </nav>
                     <section id="home">
                         <h1>FUSAKO OBATA</h1>
-                        <p>Under construction.</p>
+                        <p>Developer. Collaborator. Creative-thinker.</p>
                     </section>
                     <section id="about">
                         <h2>ABOUT</h2>
                         <p>
-                            FUSAKO OBATA is a product development professional residing in the San Francisco Bay Area.
+                            <span style="color: #e7360e">FUSAKO OBATA</span> is a product development professional based in San Francisco Bay Area.
                             With 3+ years of experience working in developing virtual assistant technologies (i.e. Amazon Alexa, Google Assistant),
-                            she is equipped with expertise in cross-functional collaboration, project management,
-                            and fundamentals in working within a software dev team.
+                            she is equipped with expertise in cross-functional collaboration, project management, localization,
+                            and fundamentals in working in a fast-paced software dev team.
                             <br>
                             <br>
                             While she spent volunteering, self-teaching, and looking back at her career in 2020,
@@ -87,6 +91,9 @@
                             in the meantime to see projects in-progress.
                         </p>
                     </section>
+                    <section id="end">
+                        <a class="nav-link" href="#navbutton"><i class="fas fa-angle-double-up fa-2x" id="scroll-up"></i></a>
+                    </section>
                 </div>
             </main>
         </div>
@@ -95,6 +102,8 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
         <!-- Custom script -->
         <script src="scripts/script.js" type="text/javascript"></script>
     </body>
