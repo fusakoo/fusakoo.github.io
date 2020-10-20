@@ -69,7 +69,7 @@ p {
   }
 }
 
-main h1 {
+main h1, main h2{
   font-family: 'Rubik', sans-serif;
   color: #FF522B;
   font-size: 1.5em;
