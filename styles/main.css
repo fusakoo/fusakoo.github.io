@@ -97,11 +97,11 @@ main p {
 }
 
 main a {
-  color: #ff9215;
+  color: #a5a5a5;
 }
 
 main a:hover {
-  color: #ff6b15;
+  color: #ff9215;
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -116,4 +116,33 @@ main a:hover {
 
 #scroll-up {
   float: right;
+}
+
+.descriptor {
+  opacity: 0;
+  padding: 0 40px;
+  line-height: 1em;
+  color: #6e6e6e;
+  animation: fadeIn ease 4s forwards;
+  -webkit-animation: fadeIn ease 4s forwards;
+}
+
+#fade-1 {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+
+#fade-2 {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+
+#fade-3 {
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
