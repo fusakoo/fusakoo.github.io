@@ -84,12 +84,12 @@ p {
 main h1, main h2 {
   font-family: 'Rubik', sans-serif;
   color: #FF522B;
-  font-size: 1.5em;
-  padding: 40px 40px 20px 40px;
+  font-size: 2em;
+  padding: 50px 40px 20px 40px;
 }
 
 main h1 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 main p {
